@@ -1,0 +1,241 @@
+body
+{
+  background-image: url("images/WebResources/BG.jpg");
+  font-family: 'Montserrat', sans-serif;
+}
+a
+{
+  text-decoration: none;
+}
+.Texto
+{
+  color: #FFFFFF;
+}
+.AS_OffWebPort
+{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 70px;
+  padding-bottom: 50px;
+}
+.site_logo
+{
+  margin: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 10px 10px;
+}
+.table_menu
+{
+  border-style: solid;
+  border-color: white;
+  border-width: 15px;
+  background-color: black;
+  width: 1000px;
+  top: 50px;
+}
+.table_games
+{
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  background-color: black;
+  width: 1500px;
+  top: 50px;
+}
+.table_team
+{
+  border-style: solid;
+  border-color: white;
+  border-width: 5px;
+  background-color: black;
+  width: 1000px;
+  top: 50px;
+}
+.site_image_logo
+{
+  margin-top: 20px;
+}
+.Divider
+{
+  margin: 15px;
+  border-top: 5px solid #ffffff;
+  border-radius: 5px;
+}
+.Divider2
+{
+  margin: 15px;
+  border-top: .5px solid #ffffff;
+  border-bottom: .5px;
+  border-radius: 5px;
+}
+.DividerBlack
+{
+  margin: 15px;
+  margin-bottom: 0px;;
+  border-color: #000000;
+}
+.Options_Buttons
+{
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  letter-spacing: 3px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.Options_Buttons span
+{
+  position: absolute;
+  display: block;
+}
+#span1
+{
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #FFFFFF);
+}
+.Options_Buttons:hover #span1
+{
+  left: 100%;
+  transition: 1s;
+}
+#span3
+{
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #FFFFFF);
+}
+.Options_Buttons:hover #span3
+{
+  right: 100%;
+  transition: 1s;
+  transition-delay: 0.5s;
+}
+#span2
+{
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #FFFFFF);
+}
+.Options_Buttons:hover #span2
+{
+  top: 100%;
+  transition: 1s;
+  transition-delay: 0.25s;
+}
+#span4
+{
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #FFFFFF);
+}
+.Options_Buttons:hover #span4
+{
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: 0.75s;
+}
+.listado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item {
+  display: flex;
+  align-items:center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+  width: 96%;
+}
+.juegos {
+  width: 320px;
+  height: 180px;
+  object-fit: cover;
+  
+  margin-right: 20px;
+  border-style: solid;
+  border-color: white;
+}
+.contenido {
+  display: flex;
+  flex-direction: column;
+  
+}
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+h4 {
+  font-size: 20px;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+p {
+  font-size: 16px;
+  text-align: left;
+  margin-top: 0px;
+}
+.team {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  
+  margin-right: 20px;
+  border-style: solid;
+  border-color: white;
+}
+.team_desc{
+  text-align: justify;
+  margin-bottom: 0px;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75px;
+  height: 75px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+}
+
+.icon i {
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+}
+.redes
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
